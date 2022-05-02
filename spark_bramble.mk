@@ -17,6 +17,9 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 4a (5G)
 PRODUCT_NAME := spark_bramble
 
+TARGET_USES_BLUR := true
+
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
