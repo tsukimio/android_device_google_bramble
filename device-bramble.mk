@@ -26,6 +26,9 @@ LOCAL_PATH := device/google/bramble
 
 PRODUCT_SOONG_NAMESPACES += \
     device/google/bramble
+    
+PRODUCT_BOARD_PLATFORM := sm7250
+PRODUCT_USES_QCOM_HARDWARE := true
 
 DEVICE_PACKAGE_OVERLAYS += device/google/bramble/bramble/overlay
 
